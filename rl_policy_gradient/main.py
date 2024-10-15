@@ -77,12 +77,7 @@ if __name__ == "__main__":
     num_runs = 5
     n_episodes = 500
     for _ in range(num_runs):
-        # train_ppo("InvertedPendulum-v4", metric_tracker)
-        # Train each algorithm per run. `env_interaction` for tabular algorithms and `train_ppo` for PPO.
-        env_interaction("InvertedPendulum-v4", "ACTOR-CRITIC-AGENT",
-                        tracker=metric_tracker,
-                        num_episodes=n_episodes,
-                        learning_rate_actor=0.0006,
-                        learning_rate_critic=0.006)
+        # Train each algorithm per run. `env_interaction` or `train_ppo` for PPO.
+        pass
 
     metric_tracker.plot_metric("return", "target_return.png", n_episodes)
