@@ -1,24 +1,19 @@
 <br />
 <p align="center">
-  <h1 align="center">Reinforcement Learning - Final Project Template</h1>
+  <h1 align="center">Reinforcement Learning</h1>
 
   <p align="center">
   </p>
 </p>
 
 ## About
-This project contains skeleton code and a virtual environment to help you get started on the final project. You are free to add more packages and modules.
-You are also free to change the project structure to use a convention you prefer. The one provided is the default project structure from `poetry`. 
+This project contains skeleton code and a virtual environment to help you get started on the programming part of the final assignment. 
 
 ## Getting started
 
 ### Prerequisites
 
-- [GCC](https://gcc.gnu.org/) (a C++ compiler) - if you are using an environment that requires `box2d-py`.
-- [Swig](https://swig.org/) - if you are using an environment that requires `box2d-py`.
 - [Poetry](https://python-poetry.org/).
-
-The first two dependencies are required for `box2d-py` because it is a dependency of `box2d-py` which some gymnasium environments use to render the environment.
 
 ## Running
 <!--
@@ -52,22 +47,3 @@ Instead of running locally you can also run the program inside a container using
 
 ## Usage
 You can add here some description on how to run the project (which file to run for example).
-
-## Information on provided code
-
-### Metrics Tracking
-In the `util` package a singleton `MetricksTracker` class is provided. You can use it to keep track of average return and average loss values over time. Of course, you are also free to use other facilities for keeping track metrics.
-
-### Function Approximators
-Int he `models` package you can find PyTorch neural network classes for a standard multiLayer perceptron and a two-headed multilayer perceptron.
-
-## Installing GCC and Swig
-
-GCC stands for the GNU Compiler Collection and includes compilers for C and C++. To install GCC (assuming a Debian-based Linux distribution like Ubuntu):
-```
-apt-get install build-essential
-```
-For `swig`:
-```
-apt-get install swig
-```
