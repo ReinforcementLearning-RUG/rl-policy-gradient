@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "final_project"
+name = "rl_policy_gradient"
 version = "0.1.0"
 description = ""
 authors = ["Matthijs <matthijs.vanderlende@gmail.com>"]
